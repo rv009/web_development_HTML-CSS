@@ -1,0 +1,111 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("gympic1.jpg")
+}
+
+.left {
+    text-align: center;
+    display: inline-block;
+    /* border: aqua 2px solid; */
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.mid {
+    /* border: red 2px solid; */
+    display: block;
+    width: 38%;
+    margin: 20px auto;
+}
+
+.right {
+    /* border: green 2px solid; */
+    position: absolute;
+    right: 30px;
+    top: 36px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 19px;
+    font-size: 110%;
+}
+
+.navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 36px;
+        filter: invert(100%);
+        height: 42px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 90%;
+        line-height: 9px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 5px;
+        background-color: black;
+        color: white;
+        padding: 2px 4px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: grey 2px solid;
+        font-size: 86%;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 68px 60px;
+        padding: 23px;
+        width: 34%;
+        border-radius: 15px;
+    }
+
+    .form input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 378px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 12px auto;
+        font-size: 18px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 84%;
+        margin: 22px auto;
+
+    }
